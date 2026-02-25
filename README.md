@@ -2,6 +2,7 @@
 
 ## Overview
 This project was developed as part of the PIBI – 4th Year Business Intelligence Program at Esprit School of Engineering (Academic Year 2025–2026).
+
 It implements a full Business Intelligence solution for Sport Padel using Talend ETL, PostgreSQL, and Power BI dashboards.
 
 ## Features
