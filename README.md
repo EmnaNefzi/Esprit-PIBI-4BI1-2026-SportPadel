@@ -41,11 +41,12 @@ Class: 4BI1
 Academic Year: 2025–2026  
 
 ## Getting Started
-1. Import ETL Jobs into Talend Open Studio
-2. Configure PostgreSQL database connection
-3. Execute ETL workflows to populate the Data Warehouse
-4. Connect Power BI to PostgreSQL
-5. Build dashboards and analytical reports
+1. Open Talend Open Studio
+2. Import ETL Jobs
+3. Configure PostgreSQL connection
+4. Execute ETL workflows
+5. Connect Power BI to PostgreSQL
+6. Build dashboards and analytical reports
 
 ## Acknowledgments
 This academic project was developed at Esprit School of Engineering as part of the Business Intelligence curriculum (PIBI).
