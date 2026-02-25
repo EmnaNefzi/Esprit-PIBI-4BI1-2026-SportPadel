@@ -3,15 +3,15 @@
 ## Overview
 This project was developed as part of the PIBI – 4th Year Business Intelligence Program at Esprit School of Engineering (Academic Year 2025–2026).
 
-The project aims to design and implement a complete Business Intelligence solution for Sport Padel analytics using Talend for ETL, PostgreSQL for the Data Warehouse, and Power BI for data visualization and reporting.
+It aims to build a complete Business Intelligence solution for Sport Padel analytics using Talend ETL, PostgreSQL Data Warehouse, and Power BI dashboards.
 
 ## Features
-- ETL Integration using Talend Open Studio
+- ETL Integration with Talend
 - Data Cleaning and Transformation
-- Data Warehouse Implementation (PostgreSQL)
+- Data Warehouse Modeling (Star Schema)
 - Dimensional Modeling (Fact & Dimension Tables)
-- Interactive Dashboards with Power BI
-- Analytical Reporting for decision-making
+- Analytical Dashboards with Power BI
+- Decision-Making Reports
 
 ## Tech Stack
 ### ETL
@@ -21,7 +21,7 @@ The project aims to design and implement a complete Business Intelligence soluti
 - PostgreSQL
 
 ### Data Visualization
-- Microsoft Power BI
+- Power BI
 
 ### Data Warehouse & BI
 - SQL
@@ -32,21 +32,26 @@ The project aims to design and implement a complete Business Intelligence soluti
 Data Sources → Talend ETL → PostgreSQL Data Warehouse → Power BI Dashboards & Reports
 
 ## Contributors
-- Emna Nefzi – 4BI1 Student, Esprit School of Engineering
+- Emna Nefzi 
+- Kenza Hmad
+- Yosr Marzouki
+- Arij Dhahbi
+- Lina Boufaied 
+- Ayoub Ben Hmida 
 
 ## Academic Context
 Developed at Esprit School of Engineering – Tunisia  
 Program: PIBI (Business Intelligence)  
-Class: 4BI1  
+Class: 4ERP-BI1  
 Academic Year: 2025–2026  
 
 ## Getting Started
 1. Open Talend Open Studio
 2. Import ETL Jobs
 3. Configure PostgreSQL connection
-4. Execute ETL workflows
+4. Execute ETL workflows to populate the Data Warehouse
 5. Connect Power BI to PostgreSQL
 6. Build dashboards and analytical reports
 
 ## Acknowledgments
-This academic project was developed at Esprit School of Engineering as part of the Business Intelligence curriculum (PIBI).
+This academic project was carried out at Esprit School of Engineering as part of the Business Intelligence curriculum (PIBI).
