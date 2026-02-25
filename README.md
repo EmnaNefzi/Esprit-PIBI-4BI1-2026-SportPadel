@@ -2,16 +2,15 @@
 
 ## Overview
 This project was developed as part of the PIBI – 4th Year Business Intelligence Program at Esprit School of Engineering (Academic Year 2025–2026).
-
-It aims to build a complete Business Intelligence solution for Sport Padel analytics using Talend ETL, PostgreSQL Data Warehouse, and Power BI dashboards.
+It implements a full Business Intelligence solution for Sport Padel using Talend ETL, PostgreSQL, and Power BI dashboards.
 
 ## Features
-- ETL Integration with Talend
+- ETL Integration using Talend Open Studio
 - Data Cleaning and Transformation
-- Data Warehouse Modeling (Star Schema)
+- Data Warehouse Implementation
 - Dimensional Modeling (Fact & Dimension Tables)
-- Analytical Dashboards with Power BI
-- Decision-Making Reports
+- Interactive Dashboards with Power BI Desktop
+- Analytical Reporting
 
 ## Tech Stack
 ### ETL
@@ -21,7 +20,7 @@ It aims to build a complete Business Intelligence solution for Sport Padel analy
 - PostgreSQL
 
 ### Data Visualization
-- Power BI
+- Power BI Desktop
 
 ### Data Warehouse & BI
 - SQL
