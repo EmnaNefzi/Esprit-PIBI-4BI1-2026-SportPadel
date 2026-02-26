@@ -1,0 +1,87 @@
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Node / Angular
+# =========================
+node_modules/
+dist/
+.angular/
+.cache/
+npm-debug.log
+yarn-error.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Python / Flask
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
+instance/
+*.sqlite3
+
+# =========================
+# Talend
+# =========================
+*.log
+*.tmp
+*.bak
+*.class
+*.zip
+
+# Talend workspace metadata (optional)
+.metadata/
+
+# =========================
+# Power BI
+# =========================
+*.pbix.autosave
+*.pbix.tmp
+
+# =========================
+# Database / Large Raw Data
+# =========================
+*.csv
+*.xlsx
+*.xls
+*.pdf
+*.parquet
+
+# If you want to keep data_sources structure but ignore heavy files
+data_sources/raw/*
+!data_sources/.gitkeep
+
+# =========================
+# IDE Files
+# =========================
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Build / Temporary Files
+# =========================
+temp/
+tmp/
+*.cache
