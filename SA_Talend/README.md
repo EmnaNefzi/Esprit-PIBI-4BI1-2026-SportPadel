@@ -29,9 +29,9 @@ Each Talend job typically includes:
 - `.screenshot` → Documentation screenshot (optional, does not affect execution)  
 
 Example for `SA_Load_Calender2023`:
-  - SA_Load_Calender2023_0.1.item
-  - SA_Load_Calender2023_0.1.properties
-  - SA_Load_Calender2023_0.1.screenshot
+  -  SA_Load_Calender2023_0.1.item
+  -  SA_Load_Calender2023_0.1.properties
+  -  SA_Load_Calender2023_0.1.screenshot
 
 
 ## Execution Instructions
@@ -46,7 +46,6 @@ Example for `SA_Load_Calender2023`:
     - SA_Load_Players_Men
     - SA_Load_Players_Women
     - SA_Load_Tournois_apr_a_sep
-
 4. Verify the loaded data in the **PostgreSQL Data Warehouse**.  
 
 ---
@@ -71,34 +70,6 @@ Example for `SA_Load_Calender2023`:
 6. Ensure all team members use the **same Talend Studio version**.  
 
 ---
-
-## Folder Structure Recommendation
-
-4. Verify the loaded data in the **PostgreSQL Data Warehouse**.  
-
----
-
-## Notes
-
-- `.properties` files allow you to adjust **source/target paths**, database connections, and other job parameters.  
-- `.screenshot` files are for documentation only; they do **not** affect execution.  
-- The **Talend project file (`talend.project`)** is required for Talend Studio to recognize the project.  
-- Avoid manual edits to `.item` files outside Talend Studio unless absolutely necessary.  
-- Always **version control** this folder on GitHub to track changes in jobs and configurations.  
-
----
-
-## Best Practices
-
-1. Commit `.item` and `.properties` files to GitHub.  
-2. Optionally, exclude `.screenshot` files if repository size is a concern.  
-3. Document any modifications clearly in the README to keep the team aligned.  
-4. Test jobs locally before pushing new versions.  
-5. Strictly follow the execution order to prevent data inconsistencies.  
-6. Ensure all team members use the **same Talend Studio version**.  
-
----
-
 ## Folder Structure Recommendation
     SA_Talend/
            ├── SA_MASTER_LOAD_0.1.*
