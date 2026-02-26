@@ -4,7 +4,7 @@ This folder contains all the original PDF files used as sources for the Sport Pa
 These PDFs are used to extract tournament, player, and calendar information which is then converted into CSV files.
 
 ## Files Overview
-### Padel-Rackets
+### Equipment Padel 
   - `Cahier des Charges - PADEL.pdf`
 
 ### Tournaments
