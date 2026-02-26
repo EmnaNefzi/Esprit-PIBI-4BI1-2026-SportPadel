@@ -182,13 +182,11 @@ Stores player match performance:
 ## Notes
 
 - SA tables store raw data extracted from CSV, PDF, and external data sources
-- DW tables store cleaned, transformed, and analytical data (Star Schema)
-- This database structure is designed to work with Talend ETL pipelines (SA_Talend → DW_Talend)
-- The Data Warehouse is optimized for Business Intelligence tools such as Power BI dashboards
+- DW tables store cleaned, transformed, and analytical data 
+- This database structure supports Talend ETL workflows (SA_Talend and DW_Talend)
+- The Data Warehouse is optimized for Business Intelligence tools such as Power BI
 
 This Database folder represents the core data foundation of the Sport Padel BI project and must remain synchronized with:
 - data_sources (raw files)
 - SA_Talend (staging ETL jobs)
 - DW_Talend (warehouse ETL jobs)
-
-
