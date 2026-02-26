@@ -3,7 +3,7 @@ CREATE TABLE sa.sa_tournament_mar (LIKE sa.sa_tournament_jul INCLUDING ALL);
 CREATE TABLE sa.sa_tournament_apr (LIKE sa.sa_tournament_jul INCLUDING ALL);
 CREATE TABLE sa.sa_tournament_mai (LIKE sa.sa_tournament_jul INCLUDING ALL);
 CREATE TABLE sa.sa_tournament_jun (LIKE sa.sa_tournament_jul INCLUDING ALL);
-CREATE TABLE sa.sa_tournament_jul (LIKE sa.sa_tournament_jul INCLUDING ALL);
+CREATE TABLE sa.sa_tournament_jan (LIKE sa.sa_tournament_jul INCLUDING ALL);
 CREATE TABLE sa.sa_tournament_aug (LIKE sa.sa_tournament_jul INCLUDING ALL);
 CREATE TABLE sa.sa_tournament_sep (LIKE sa.sa_tournament_jul INCLUDING ALL);
 CREATE TABLE sa.sa_tournament_oct (LIKE sa.sa_tournament_jul INCLUDING ALL);
