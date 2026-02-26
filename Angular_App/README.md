@@ -30,3 +30,5 @@ The Angular application is the presentation layer of the BI architecture.
 Make sure Node.js and Angular CLI are installed:
 ```bash
        npm install -g @angular/cli
+
+
