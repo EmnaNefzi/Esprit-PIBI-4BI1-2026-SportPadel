@@ -2,15 +2,16 @@
 
 This folder contains CSV files generated from the PDF sources or provided directly as raw data.  
 They are used for ETL processing in the Sport Padel Data Warehouse.
+## Files Overview:
 ## Equipment CSVs
 - `padel_rackets.csv`
 
-## Calendar CSVs
+### Calendar CSVs
 - `calendar_2023_staging.csv`
 - `calendar_2024_staging.csv`
 - `calendar_2026.csv`
 
-## Tournament Scripts CSVs
+### Tournament Scripts CSVs
 - `aug.csv`
 - `dec.csv`
 - `feb.csv`
@@ -23,11 +24,11 @@ They are used for ETL processing in the Sport Padel Data Warehouse.
 - `sep.csv`
 - `tournament_apr.csv`
 
-## Players CSVs
+### Players CSVs
 - `men-Players.csv`
 - `players_women.csv`
 
-## External Data
+### External Data
 - `player_stats_by_season.csv`
 - `player_stats_by_season_female.csv`
 - `tournament_audience_enriched.csv`
