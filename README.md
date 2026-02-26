@@ -1,9 +1,9 @@
 # Sport Padel – Data Warehouse & Business Intelligence Project
 
 ## Overview
-This project was developed as part of the PIBI – 4th Year Business Intelligence Program at Esprit School of Engineering (Academic Year 2025–2026).
+This project was developed as part of the PIBI – 4th Year Business Intelligence Program at **Esprit School of Engineering** (Academic Year 2025–2026).
 
-It implements a full Business Intelligence solution for Sport Padel using Talend ETL, PostgreSQL, and Power BI dashboards, with an optional match reservation module using Angular frontend and Flask/Django REST API.  
+It implements a full Business Intelligence solution for Sport Padel using **Talend ETL**, **PostgreSQL**, and **Power BI dashboards**, with an optional match reservation module using **Angular** frontend and **Flask/Django** REST API.  
 The project follows the **GIMSI methodology**, ensuring alignment with real business needs and decision-support requirements.
 
 ## Features
