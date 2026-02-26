@@ -3,7 +3,7 @@
 This folder contains CSV files generated from the PDF sources or provided directly as raw data.  
 They are used for ETL processing in the Sport Padel Data Warehouse.
 ## Files Overview:
-## Equipment CSVs
+### Equipment CSVs
 - `padel_rackets.csv`
 
 ### Calendar CSVs
