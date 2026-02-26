@@ -31,7 +31,46 @@ Each Talend job typically includes:
 ---
 
 ## Execution Instructions
-
 1. Open **Talend Open Studio**.  
-2. Import the `.item` files corresponding to each job.  
-3. Execute the jobs in the following order for proper loading..
+2. Import each `.item` file corresponding to the job you want to execute.  
+3. Run jobs in the following order to maintain data integrity:
+
+  -SA_MASTER_LOAD
+
+  -SA_Load_Calender2023
+
+  -SA_Load_Calender2024
+
+  -SA_Load_PadelTour_2026
+
+  -SA_Load_Padel_Rackets_SA
+
+  -SA_Load_Players_Men
+
+  -SA_Load_Players_Women
+
+  -SA_Load_Tournois_apr_a_sep
+ 
+4. Verify the loaded data in the **PostgreSQL Data Warehouse**.  
+
+---
+
+## Notes
+
+- Modify `.properties` files to adjust **source/target paths** or database connections.  
+- `.screenshot` files are for documentation only; they do **not** impact execution.  
+- The **Talend project file (`talend.project`)** is required for Talend Studio to recognize the project.  
+- Always **version control** this folder on GitHub to track changes in jobs and configurations.  
+
+---
+
+## Best Practices
+
+1. Commit `.item` and `.properties` files to GitHub.  
+2. Exclude `.screenshot` if you want to reduce repository size (optional).  
+3. Document any changes in the README to keep the team aligned.  
+4. Test jobs locally before pushing new versions.  
+
+---
+
+**This folder is an integral part of the Sport Padel BI project and must remain synchronized with the GitHub repository.**
