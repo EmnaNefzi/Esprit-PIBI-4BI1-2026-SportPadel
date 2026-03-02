@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_Q_uvwATREfGf4sKgs8PSdg" name="DW_PADEL" id="_8no1QATQEfGf4sKgs8PSdg" label="DW_PADEL" dataPackage="_TcbGwAT0EfGUMcvk3b-lDw" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://localhost:5432/padel_DWH?" dbVersionString="V9_X" Port="5432" Username="postgres" Password="enc:system.encryption.key.v1:hZ1A17wJ7gJuKdGlFxGYzAg+nja5a/5LxWhzmSdlclmowobvBA==" ServerName="localhost" DatasourceName="" FileFieldName="" SID="padel_DWH" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dw">
+    <taggedValue xmi:id="_Q_uvwQTREfGf4sKgs8PSdg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_RACRwATREfGf4sKgs8PSdg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_RACRwQTREfGf4sKgs8PSdg" tag="Status" value=""/>
+    <taggedValue xmi:id="_RACRwgTREfGf4sKgs8PSdg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_RACRwwTREfGf4sKgs8PSdg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_RACRxATREfGf4sKgs8PSdg" tag="Description" value=""/>
+    <taggedValue xmi:id="_RACRxQTREfGf4sKgs8PSdg" tag="Author" value=""/>
+    <taggedValue xmi:id="_RACRxgTREfGf4sKgs8PSdg" tag="otherParameter"/>
+    <taggedValue xmi:id="_RBb_8ATREfGf4sKgs8PSdg" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_RBb_8QTREfGf4sKgs8PSdg" tag="DB ProductVersion" value="18.1"/>
+    <taggedValue xmi:id="_RBb_8gTREfGf4sKgs8PSdg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_Q_uvwgTREfGf4sKgs8PSdg" key="CONN_PARA_KEY_USERNAME" value="postgres"/>
+    <parameters xmi:id="_RyNnsAT0EfGUMcvk3b-lDw" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_TcbGwAT0EfGUMcvk3b-lDw" name="padel_DWH" dataManager="_Q_uvwATREfGf4sKgs8PSdg">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_TcbGwQT0EfGUMcvk3b-lDw" name="dw"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

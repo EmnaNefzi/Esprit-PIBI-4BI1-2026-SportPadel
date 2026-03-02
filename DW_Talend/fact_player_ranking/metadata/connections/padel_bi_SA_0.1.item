@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_3veygATbEfGjFq9oSPW1lA" name="padel_bi_SA" id="_0u0d4ATbEfGjFq9oSPW1lA" label="padel_bi_SA" dataPackage="_3zRGUATbEfGjFq9oSPW1lA" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://localhost:5432/padel_bi_SA?" dbVersionString="V9_X" Port="5432" Username="postgres" Password="enc:system.encryption.key.v1:x3h0cFZREyeKJowcJxw3r3zWvSQijwI/DLWBBuyk+1um4dWc9g==" ServerName="localhost" SID="padel_bi_SA" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="sa">
+    <taggedValue xmi:id="_3veygQTbEfGjFq9oSPW1lA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_3wGdkATbEfGjFq9oSPW1lA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_3wL9IATbEfGjFq9oSPW1lA" tag="Status" value=""/>
+    <taggedValue xmi:id="_3wL9IQTbEfGjFq9oSPW1lA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_3wL9IgTbEfGjFq9oSPW1lA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_3wL9IwTbEfGjFq9oSPW1lA" tag="Description" value=""/>
+    <taggedValue xmi:id="_3wL9JATbEfGjFq9oSPW1lA" tag="Author" value=""/>
+    <taggedValue xmi:id="_3wL9JQTbEfGjFq9oSPW1lA" tag="otherParameter"/>
+    <taggedValue xmi:id="_3xxRgATbEfGjFq9oSPW1lA" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_3xxRgQTbEfGjFq9oSPW1lA" tag="DB ProductVersion" value="18.1"/>
+    <taggedValue xmi:id="_3xxRggTbEfGjFq9oSPW1lA" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_3veyggTbEfGjFq9oSPW1lA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_3zRGUATbEfGjFq9oSPW1lA" name="padel_bi_SA" dataManager="_3veygATbEfGjFq9oSPW1lA">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3zRGUQTbEfGjFq9oSPW1lA" name="sa"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

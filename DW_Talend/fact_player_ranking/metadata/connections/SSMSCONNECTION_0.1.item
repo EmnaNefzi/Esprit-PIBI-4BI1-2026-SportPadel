@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_75zSAPoTEfCZM64icpVwGw" name="SSMSCONNECTION" id="_wolHIPnsEfCZM64icpVwGw" label="SSMSCONNECTION" dataPackage="_qznZ4PojEfCZM64icpVwGw" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://DESKTOP-K3GQLTE:1433;DatabaseName=PADEL_BI;encrypt=false;trustServerCertificate=true" dbVersionString="MSSQL_PROP" Port="1433" Username="sa" Password="enc:system.encryption.key.v1:MvSlUNxupW9sZUmVZTjpmxqE73qsw0joHEyxNvHox/UyKumaMw4=" ServerName="DESKTOP-K3GQLTE" DatasourceName="" FileFieldName="" SID="PADEL_BI" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="encrypt=false;trustServerCertificate=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_751uQPoTEfCZM64icpVwGw" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_76Ov0PoTEfCZM64icpVwGw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_76TBQPoTEfCZM64icpVwGw" tag="Status" value=""/>
+    <taggedValue xmi:id="_76TBQfoTEfCZM64icpVwGw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_76TBQvoTEfCZM64icpVwGw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_76TBQ_oTEfCZM64icpVwGw" tag="Description" value=""/>
+    <taggedValue xmi:id="_76TBRPoTEfCZM64icpVwGw" tag="Author" value=""/>
+    <taggedValue xmi:id="_76TBRfoTEfCZM64icpVwGw" tag="otherParameter"/>
+    <taggedValue xmi:id="_h9REQPojEfCZM64icpVwGw" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_h9REQfojEfCZM64icpVwGw" tag="DB ProductVersion" value="16.00.1000"/>
+    <taggedValue xmi:id="_h9REQvojEfCZM64icpVwGw" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_751uQfoTEfCZM64icpVwGw" key="CONN_PARA_KEY_USERNAME" value="sa"/>
+    <parameters xmi:id="_8qFfcPoTEfCZM64icpVwGw" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_qznZ4PojEfCZM64icpVwGw" name="PADEL_BI" dataManager="_75zSAPoTEfCZM64icpVwGw">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_qznZ4fojEfCZM64icpVwGw" name="SA"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
