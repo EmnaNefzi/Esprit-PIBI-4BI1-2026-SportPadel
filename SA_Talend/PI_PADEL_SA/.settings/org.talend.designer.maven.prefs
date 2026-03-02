@@ -1,0 +1,4 @@
+PROJECT_GROUPID=org.example.pi_padel_sa
+PROJECT_VERSION=8.0.1
+SKIP_LOOP_DEPENDENCY_CHECK=true
+eclipse.preferences.version=1

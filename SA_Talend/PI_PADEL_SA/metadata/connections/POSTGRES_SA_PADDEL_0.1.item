@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_KCi1wPu-EfCIYKbofDkvYA" name="POSTGRES_SA_PADDEL" id="_JqsBUPu8EfCIYKbofDkvYA" label="POSTGRES_SA_PADDEL" dataPackage="_KEyRcPu-EfCIYKbofDkvYA" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://localhost:5432/padel_bi_SA?" dbVersionString="V9_X" Port="5432" Username="postgres" Password="enc:system.encryption.key.v1:ERIUaB3kiNyvTFQRH7kVKwhAOGSj/CNBROTXbMxNrKh2hLC42Q==" ServerName="localhost" DatasourceName="" FileFieldName="" SID="padel_bi_SA" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="sa">
+    <taggedValue xmi:id="_KCi1wfu-EfCIYKbofDkvYA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_KC2XwPu-EfCIYKbofDkvYA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_KC8eYPu-EfCIYKbofDkvYA" tag="Status" value=""/>
+    <taggedValue xmi:id="_KC8eYfu-EfCIYKbofDkvYA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_KC8eYvu-EfCIYKbofDkvYA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_KC8eY_u-EfCIYKbofDkvYA" tag="Description" value=""/>
+    <taggedValue xmi:id="_KC8eZPu-EfCIYKbofDkvYA" tag="Author" value=""/>
+    <taggedValue xmi:id="_KC8eZfu-EfCIYKbofDkvYA" tag="otherParameter"/>
+    <taggedValue xmi:id="_KDQncPu-EfCIYKbofDkvYA" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_KDQncfu-EfCIYKbofDkvYA" tag="DB ProductVersion" value="18.1"/>
+    <taggedValue xmi:id="_KDQncvu-EfCIYKbofDkvYA" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_KCi1wvu-EfCIYKbofDkvYA" key="CONN_PARA_KEY_USERNAME" value="postgres"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_KEyRcPu-EfCIYKbofDkvYA" name="padel_bi_SA" dataManager="_KCi1wPu-EfCIYKbofDkvYA">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_KEyRcfu-EfCIYKbofDkvYA" name="sa"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
